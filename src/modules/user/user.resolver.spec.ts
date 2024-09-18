@@ -45,14 +45,14 @@ describe('UserResolver', () => {
     expect(await resolver.createUser(createUserDto)).toEqual(user)
   })
 
-  it('should return all users', async () => {
+  it('should find all users', async () => {
     const users = [{id: 1, name: 'John Doe', email: 'john.doe@example.com'}]
     jest.spyOn(service, 'findAll').mockResolvedValue(users)
 
     expect(await resolver.findAll()).toEqual(users)
   })
 
-  it('should return one user by ID', async () => {
+  it('should find one user by ID', async () => {
     const user = {id: 1, name: 'John Doe', email: 'john.doe@example.com'}
     jest.spyOn(service, 'findOne').mockResolvedValue(user)
 
