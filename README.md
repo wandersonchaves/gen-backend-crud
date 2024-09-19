@@ -162,7 +162,7 @@ mutation {
 
 ## Endpoints da API
 
-- **GET** `/graphql` - Endpoint principal para interagir com a API através de GraphQL.
+- **GraphQL**: Acesse o endpoint principal para interagir com a API através de GraphQL em `http://localhost:3000/graphql`.
 
 ## Erros Comuns
 
@@ -175,4 +175,3 @@ mutation {
 - Consulte a [Documentação do NestJS](https://docs.nestjs.com) para aprender mais sobre o framework.
 - Veja nossos cursos oficiais [aqui](https://courses.nestjs.com/).
 - Use [NestJS Devtools](https://devtools.nestjs.com) para visualizar sua aplicação em tempo real.
-
